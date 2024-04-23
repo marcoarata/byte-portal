@@ -1,0 +1,23 @@
+{
+  "name": "whatisbyte-portal",
+  "version": "1.0.0",
+  "description": "what is byte developer portal",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./main.js",
+    "dev": "nodemon ./main.js",
+    "ui": "browser-sync start --config bs-config.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "nodemon": "^3.1.0"
+  }
+}
